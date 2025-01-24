@@ -4,6 +4,7 @@ import { ShinyButton } from "@/components/shiny-button"
 import { InteractiveHoverButton } from '@/components/interactive-hover-button';
 import { AnimatedSubscribeButton } from '@/components/animated-subscribe-button'
 import { PulsatingButton } from '@/components/pulsating-button'
+import { RippleButton } from '@/components/ripple-button'
 
 export default function Home() {
   return (
@@ -43,6 +44,11 @@ export default function Home() {
           <PulsatingButton>
             <span className="font-medium text-sm pb-0.5">Pulsating</span>
           </PulsatingButton>
+        </div>
+        <div>
+          <RippleButton rippleColor="#ADD8E6">
+            <span className="font-medium text-sm pb-0.5">Ripple</span>
+          </RippleButton>
         </div>
       </section>
     </main>

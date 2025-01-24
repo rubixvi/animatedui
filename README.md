@@ -11,3 +11,4 @@ Tailwind v4 Animated Components
 - Animated Subscribe
 - Shiny Button
 - Interactive Button
+- Ripple Button
