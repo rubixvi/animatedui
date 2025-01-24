@@ -74,6 +74,7 @@
     }
   }
 
+  /* Rainbow Badge */
   @keyframes rainbow {
     0% {
       background-position: 0%;
