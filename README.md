@@ -2,3 +2,8 @@
 
 ShadcnUI
 Tailwind v4 Animated Components
+
+## Animated Components
+
+- Rainbow Badge
+- Shimmer Button
