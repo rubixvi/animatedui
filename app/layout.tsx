@@ -27,7 +27,7 @@ export default function RootLayout({
       >
         <head>
         </head>
-        <body className="font-inter min-h-[100dvh] bg-black">
+        <body className="font-inter min-h-[100dvh]">
             {children}
         </body>
       </html>

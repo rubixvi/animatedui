@@ -112,6 +112,19 @@
         }
     }
     /* Shimmer: End */
+
+    /* Pulsating Button: Start */
+    --animate-pulse: pulse var(--duration, 2s) ease-out infinite;
+
+    @keyframes pulse {
+      0%, 100% {
+        box-shadow: 0 0 0 0 var(--pulse-color, rgba(0, 0, 0, 0.5))
+      }
+      50% {
+        box-shadow: 0 0 0 5px var(--pulse-color, rgba(0, 0, 0, 0.5))
+      }
+    }
+    /* Pulsating Button: End */
 }
 
 /*
