@@ -7,6 +7,7 @@ import { PulsatingButton } from '@/components/pulsating-button'
 import { RippleButton } from '@/components/ripple-button'
 import { MarqueeDemo } from '@/components/marquee/horizontal'
 import { MarqueeDemoVertical } from '@/components/marquee/vertical'
+import { Marquee3D } from '@/components/marquee/3d'
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
         </div>
         <div>
           <MarqueeDemoVertical />
+        </div>
+        <div>
+          <Marquee3D />
         </div>
       </section>
       <section className="grid grid-cols-4 gap-10 py-20 items-center justify-center align-middle">
