@@ -12,3 +12,4 @@ Tailwind v4 Animated Components
 - Shiny Button
 - Interactive Button
 - Ripple Button
+- Marquee

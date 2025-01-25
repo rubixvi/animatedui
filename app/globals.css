@@ -139,6 +139,29 @@
       }
     }
     /* Ripple Button: End */
+
+    /* Marquee: Start */
+    --animate-marquee: marquee var(--duration, 10s) linear infinite;
+    --animate-marquee-vertical: marquee-vertical var(--duration, 10s) linear infinite;
+  
+    @keyframes marquee {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(calc(-100% - var(--gap, 2rem)));
+      }
+    }
+  
+    @keyframes marquee-vertical {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(calc(-100% - var(--gap, 2rem)));
+      }
+    }
+    /* Marquee: End */
 }
 
 /*
