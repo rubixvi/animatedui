@@ -3,6 +3,8 @@
 ShadcnUI
 Tailwind v4 Animated Components
 
+[Demo](https://animatedui-plum.vercel.app/)
+
 ## Animated Components
 
 - Rainbow Badge
