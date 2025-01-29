@@ -1,10 +1,10 @@
-import { RainbowBadge } from "@/components/rainbow-badge";
-import { ShimmerButton } from "@/components/shimmer-button";
-import { ShinyButton } from "@/components/shiny-button"
-import { InteractiveHoverButton } from '@/components/interactive-hover-button';
-import { AnimatedSubscribeButton } from '@/components/animated-subscribe-button'
-import { PulsatingButton } from '@/components/pulsating-button'
-import { RippleButton } from '@/components/ripple-button'
+import { RainbowBadge } from "@/components/ui/rainbow-badge";
+import { ShimmerButton } from "@/components/ui/shimmer-button";
+import { ShinyButton } from "@/components/ui/shiny-button"
+import { InteractiveHoverButton } from '@/components/ui/interactive-hover-button';
+import { AnimatedSubscribeButton } from '@/components/ui/animated-subscribe-button'
+import { PulsatingButton } from '@/components/ui/pulsating-button'
+import { RippleButton } from '@/components/ui/ripple-button'
 import { MarqueeDemo } from '@/components/marquee/horizontal'
 import { MarqueeDemoVertical } from '@/components/marquee/vertical'
 import { Marquee3D } from '@/components/marquee/3d'
